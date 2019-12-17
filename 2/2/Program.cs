@@ -10,15 +10,15 @@ namespace _2
     {
         static void Main(string[] args)
         {
-            double skaicius1 = 0.1 * 10;
-            double skaicius2 = 0;
+            decimal skaicius1 = 0.1m * 10;
+            decimal skaicius2 = 0m;
 
             for (int ctr = 0; ctr < 10; ctr++)
             {
-                skaicius2 += 0.1;
+                skaicius2 += 0.1m;
             }
 
-            Console.WriteLine("{0:R} = {1:R} : {2}", skaicius1, skaicius2, skaicius1 == skaicius2);
+            Console.WriteLine("{0} = {1} : {2}", skaicius1, skaicius2, skaicius1 == skaicius2);
             Console.ReadLine();
             }
         }
