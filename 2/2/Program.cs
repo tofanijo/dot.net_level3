@@ -10,8 +10,8 @@ namespace _2
     {
         static void Main(string[] args)
         {
-            decimal skaicius1 = 0.1m * 10;
-            decimal skaicius2 = 0m;
+            decimal skaicius1 = 0.1m * 10; //double
+            decimal skaicius2 = 0m;        //double
 
             for (int ctr = 0; ctr < 10; ctr++)
             {
